@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="260.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <AnchorPane prefHeight="56.0" prefWidth="260.0" style="-fx-background-color: #000;">
+         <children>
+            <Text fill="#f8f8f8" layoutX="59.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПОГОДА">
+               <font>
+                  <Font name="Georgia" size="32.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="field" layoutX="33.0" layoutY="66.0" opacity="0.9" promptText="Введите город" style="-fx-border-radius: 7px; -fx-text-fill: #fff; -fx-background-color: #333; -fx-border-color: red;">
+         <font>
+            <Font name="Georgia" size="13.0" />
+         </font></TextField>
+      <Button fx:id="btn" layoutX="69.0" layoutY="106.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="116.0" text="УЗНАТЬ ПОГОДУ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text fill="#da1616" layoutX="14.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Информация">
+         <font>
+            <Font name="Georgia" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp" fill="WHITE" layoutX="14.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Температура :">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="cloud" fill="WHITE" layoutX="14.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Облачность :">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="max_temp" fill="WHITE" layoutX="14.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Максимум :">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="min_temp" fill="WHITE" layoutX="14.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Минимум :">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="davl" fill="WHITE" layoutX="14.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Давление :">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
